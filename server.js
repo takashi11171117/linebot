@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 8080;
  
 const app = express();
  
-app.get('/webhook', line.middleware(config), (req, res) => {
-  res.json('aaaaaa');
+app.get('/webhook', (req, res) => {
+  res.send('hello world');
 });
 
 app.post('/webhook', line.middleware(config), (req, res) => {
