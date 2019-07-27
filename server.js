@@ -8,11 +8,6 @@ const line = require('@line/bot-sdk');
 const PORT = process.env.PORT || 8080;
  
 const app = express();
- 
-app.get('/webhook', (req, res) => {
-  res.status(200);
-  res.send('hello world');
-});
 
 app.post('/webhook', line.middleware(config), (req, res) => {
     console.log(req.body.events);
