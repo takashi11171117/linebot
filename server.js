@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 8080;
  
 const app = express();
  
+app.get('/webhook', line.middleware(config), (req, res) => {
+  res.json('aaaaaa');
+});
+
 app.post('/webhook', line.middleware(config), (req, res) => {
     console.log(req.body.events);
     Promise
