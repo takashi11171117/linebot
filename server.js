@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 8080;
 const app = express();
  
 app.get('/webhook', (req, res) => {
+  res.status(200);
   res.send('hello world');
 });
 
