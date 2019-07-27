@@ -64,5 +64,6 @@ function handleEvent(event) {
   return client.replyMessage(event.replyToken, responsemsg);
 }
  
-app.listen(PORT);
-console.log(`Server running at ${PORT}`);
+app.listen(PORT, function() {
+  console.log('Listening on port %d', PORT);
+});
