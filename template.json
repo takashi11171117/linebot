@@ -1,0 +1,143 @@
+{
+    "output": {
+        "line_template_button": {
+            "type": "buttons",
+            "thumbnailImageUrl": "https://1.bp.blogspot.com/-zEKEpGCVUco/Ws2vxslzKaI/AAAAAAABLYM/B67RdLxkdkA8mylXhM8QGhXEnYxlJ-nLgCLcBGAs/s400/pose_happy_businessman_guts.png",
+            "imageAspectRatio": "square",
+            "imageSize": "cover",
+            "imageBackgroundColor": "#FFFFFF",
+            "title": "Menu",
+            "text": "Please select",
+            "defaultAction": {
+                "type": "uri",
+                "label": "View detail",
+                "uri": "http://example.com/page/123"
+            },
+            "actions": [
+                {
+                    "type": "postback",
+                    "label": "Buy",
+                    "data": "action=buy&itemid=123"
+                },
+                {
+                    "type": "postback",
+                    "label": "Add to cart",
+                    "data": "action=add&itemid=123"
+                },
+                {
+                    "type": "uri",
+                    "label": "View detail",
+                    "uri": "http://example.com/page/123"
+                }
+            ]
+        },
+        "line_template_confirm": {
+            "type": "confirm",
+            "text": "Are you sure?",
+            "actions": [
+                {
+                "type": "message",
+                "label": "Yes",
+                "text": "yes"
+                },
+                {
+                "type": "message",
+                "label": "No",
+                "text": "no"
+                }
+            ]
+        },
+        "line_template_image_carousel": {
+            "type": "image_carousel",
+            "columns": [
+                {
+                    "imageUrl": "https://3.bp.blogspot.com/-gzgU0I0qVy0/Wwoht4KAB4I/AAAAAAABMZE/6HGXufoIhhQDiZN-RLHK0Ibx2eqkLGLIwCLcBGAs/s400/job_art_hotoke_busshi.png",
+                    "action": {
+                        "type": "postback",
+                        "label": "Buy",
+                        "data": "action=buy&itemid=111"
+                    }
+                },
+                {
+                    "imageUrl": "https://4.bp.blogspot.com/-6apuf4zJwoQ/WxvKGTFUveI/AAAAAAABMm0/SebNsibzmy0JNutXq1aSRN-gzE3QG6qngCLcBGAs/s400/job_cable_matomeru_assistant.png",
+                    "action": {
+                        "type": "message",
+                        "label": "Yes",
+                        "text": "yes"
+                    }
+                },
+                {
+                    "imageUrl": "https://3.bp.blogspot.com/-h7KLtqbR27w/Wn1V7_a7ahI/AAAAAAABKGY/EG98sfpc7cAKUGxiLQ2eDOFH1iUCE0BQQCLcBGAs/s450/hotoke_senju_kannon.png",
+                    "action": {
+                        "type": "uri",
+                        "label": "View detail",
+                        "uri": "http://example.com/page/222"
+                    }
+                }
+            ]
+        },
+        "line_template_carousel": {
+            "type": "carousel",
+            "columns": [
+                {
+                    "thumbnailImageUrl": "https://3.bp.blogspot.com/-h7KLtqbR27w/Wn1V7_a7ahI/AAAAAAABKGY/EG98sfpc7cAKUGxiLQ2eDOFH1iUCE0BQQCLcBGAs/s450/hotoke_senju_kannon.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "this is menu",
+                    "text": "description",
+                    "defaultAction": {
+                        "type": "uri",
+                        "label": "View detail",
+                        "uri": "http://example.com/page/123"
+                    },
+                    "actions": [
+                        {
+                            "type": "postback",
+                            "label": "Buy",
+                            "data": "action=buy&itemid=111"
+                        },
+                        {
+                            "type": "postback",
+                            "label": "Add to cart",
+                            "data": "action=add&itemid=111"
+                        },
+                        {
+                            "type": "uri",
+                            "label": "View detail",
+                            "uri": "http://example.com/page/111"
+                        }
+                    ]
+                },
+                {
+                    "thumbnailImageUrl": "https://4.bp.blogspot.com/-6apuf4zJwoQ/WxvKGTFUveI/AAAAAAABMm0/SebNsibzmy0JNutXq1aSRN-gzE3QG6qngCLcBGAs/s400/job_cable_matomeru_assistant.png",
+                    "imageBackgroundColor": "#000000",
+                    "title": "this is menu",
+                    "text": "description",
+                    "defaultAction": {
+                        "type": "uri",
+                        "label": "View detail",
+                        "uri": "http://example.com/page/222"
+                    },
+                    "actions": [
+                        {
+                            "type": "postback",
+                            "label": "Buy",
+                            "data": "action=buy&itemid=222"
+                        },
+                        {
+                            "type": "postback",
+                            "label": "Add to cart",
+                            "data": "action=add&itemid=222"
+                        },
+                        {
+                            "type": "uri",
+                            "label": "View detail",
+                            "uri": "http://example.com/page/222"
+                        }
+                    ]
+                }
+            ],
+            "imageAspectRatio": "rectangle",
+            "imageSize": "cover"
+        }
+    }
+}
